@@ -1,0 +1,330 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #0d47a1; /* Darker blue for name */
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+    color: #1976d2; /* Medium blue for title */
+    margin-bottom: 30px;
+}
+
+a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Nuevo CSS para la barra de navegación */
+.main-nav {
+    background: #2c3e50; /* Color de fondo oscuro */
+    color: #ffffff;
+    padding: 10px 0;
+    position: sticky; /* Hace que la barra de navegación se quede arriba al hacer scroll */
+    top: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos de la navegación */
+    flex-wrap: wrap; /* Permite que los elementos salten de línea en pantallas pequeñas */
+}
+
+.main-nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos de la navegación */
+}
+
+.main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    color: #1976d2; /* Cambia de color al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #ffffff;
+    padding: 30px 0;
+    border-bottom: 3px solid #1976d2;
+    text-align: center;
+}
+
+.profile-summary {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #1976d2;
+}
+
+.achievements {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed #ccc;
+}
+
+.achievements h3 {
+    color: #1976d2;
+}
+
+.achievements ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.achievements li {
+    background-color: #e0f2f7;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #0d47a1;
+}
+
+
+/* Sections */
+section {
+    background: #ffffff;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #1976d2;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Experience */
+.job {
+    margin-bottom: 25px;
+}
+
+.job h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.job .company {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.job ul li::before {
+    content: '•';
+    color: #1976d2;
+    position: absolute;
+    left: 0;
+}
+
+/* Skills */
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.skills-category ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.skills-category ul li {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* Education */
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    color: #666;
+    font-style: italic;
+}
+
+/* Languages */
+#languages ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#languages ul li {
+    background-color: #e0f7fa;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #00796b;
+}
+
+/* Portfolio */
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.portfolio-item h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.portfolio-item ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.portfolio-item ul li::before {
+    content: '•';
+    color: #1976d2;
+    position: absolute;
+    left: 0;
+}
+
+/* Presentations */
+.presentation-item {
+    margin-bottom: 20px;
+}
+
+.presentation-item h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.presentation-item ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.presentation-item ul li::before {
+    content: '•';
+    color: #1976d2;
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 3px solid #1976d2;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .skills-category ul {
+        grid-template-columns: 1fr;
+    }
+
+    /* Ajuste para el nav en pantallas pequeñas */
+    .main-nav ul {
+        flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+        align-items: center; /* Centra los elementos apilados */
+    }
+    .main-nav ul li {
+        margin: 5px 0; /* Menos espacio vertical */
+    }
+}
