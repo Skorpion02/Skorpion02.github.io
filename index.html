@@ -1,181 +1,156 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roberto de Gouveia - Programador y Analista de Datos</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Skorpion02</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #00b4d8;
+      --secondary: #f9f9f9;
+      --accent: #ffb703;
+      --dark: #22223b;
+      --gray: #e0e0e0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0; background: var(--secondary); color: var(--dark);
+    }
+    header {
+      background: linear-gradient(120deg, var(--primary) 65%, var(--accent) 100%);
+      color: white;
+      padding: 60px 20px 40px 20px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 6px 30px 0 #00b4d826;
+    }
+    .avatar {
+      width: 120px; height: 120px;
+      border-radius: 50%; border: 5px solid var(--accent);
+      object-fit: cover; margin-bottom: 20px;
+      box-shadow: 0 4px 24px 0 #0002;
+      background: white;
+    }
+    h1 { font-size: 2.6rem; margin: 0 0 8px;}
+    h2 { color: var(--primary); }
+    .subtitle { font-size: 1.2rem; margin: 8px 0 20px; }
+    nav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      margin: 0 16px; font-weight: bold;
+      font-size: 1.1rem;
+      border-bottom: 2px solid transparent;
+      transition: border 0.3s;
+    }
+    nav a:hover { border-bottom: 2px solid var(--accent);}
+    section { max-width: 940px; margin: 40px auto; padding: 20px; }
+    .projects, .skills { display: flex; flex-wrap: wrap; gap: 32px;}
+    .card {
+      background: white; border-radius: 18px;
+      box-shadow: 0 2px 16px 0 #22223b11;
+      padding: 24px; flex: 1 1 250px; min-width: 260px;
+      max-width: 320px; text-align: center;
+      transition: transform 0.2s;
+      border: 1px solid var(--gray);
+    }
+    .card:hover { transform: translateY(-8px) scale(1.03);}
+    .card img { width: 64px; height: 64px; object-fit: cover; border-radius: 12px; margin-bottom: 8px;}
+    .skill-icon { font-size: 2.3rem; margin-bottom: 8px; color: var(--primary);}
+    .contact-icons a {
+      margin: 0 14px; color: var(--primary); font-size: 2.2rem;
+      transition: color 0.2s;
+    }
+    .contact-icons a:hover { color: var(--accent);}
+    footer {
+      text-align: center; color: #888; padding: 24px;
+      background: var(--gray); margin-top: 40px;
+    }
+    @media (max-width: 700px) {
+      .projects, .skills { flex-direction: column; gap: 18px;}
+      .card { max-width: 100%; }
+      section { padding: 12px;}
+      header { padding: 30px 10px 24px 10px;}
+    }
+  </style>
 </head>
 <body>
-    <nav class="main-nav">
-        <div class="container">
-            <ul>
-                <li><a href="#experience">Experiencia</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#education">Educación</a></li>
-                <li><a href="#languages">Idiomas</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#presentations">Presentaciones</a></li>
-            </ul>
-        </div>
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/1009894559?v=4" alt="Avatar" class="avatar">
+    <h1>¡Hola, soy Skorpion02!</h1>
+    <div class="subtitle">Desarrollador web & creador de experiencias digitales.</div>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
     </nav>
+  </header>
 
-    <header>
-        <div class="container">
-            <h1>ROBERTO DE GOUVEIA</h1>
-            <h2>PROGRAMMER AND DATA ANALYST</h2>
-            <p class="profile-summary">Soy un profesional multidisciplinario en TI con más de 3 años de experiencia en soporte técnico, configuración de sistemas y automatización. Especializado en análisis de datos, aprendizaje automático y desarrollo de paneles interactivos utilizando Python, SQL, Power BI y Tableau. Capacidad demostrada para optimizar operaciones y ofrecer información procesable. Apasionado por el aprendizaje continuo y la resolución de problemas complejos mediante la tecnología.</p>
-            <div class="contact-info">
-                <p><i class="fas fa-phone-alt"></i> 603-03-82-57</p>
-                <p><i class="fas fa-envelope"></i> degouveia1115@gmail.com</p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/Skorpion02" target="_blank">github.com/Skorpion02</a></p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/roberto-andrés-de-gouveia-de-andrade-830206208/" target="_blank">linkedin.com/in/roberto-andrés-de-gouveia-de-andrade-830206208/</a></p>
-                <p><i class="fas fa-map-marker-alt"></i> Madrid, España</p>
-                <p><i class="fas fa-globe"></i> <a href="https://portfoliocv02.netlify.app" target="_blank">https://portfoliocv02.netlify.app</a></p>
-            </div>
-            <div class="achievements">
-                <h3>LOGROS</h3>
-                <ul>
-                    <li>Sistema de fichaje de empleados.</li>
-                    <li>Desarrollo de ecommerce B2B.</li>
-                    <li>Implementación de pfsense y gestión de redes.</li>
-                    <li>Creación de scripts de automatización.</li>
-                </ul>
-            </div>
-        </div>
-    </header>
+  <section id="proyectos">
+    <h2>🚀 Proyectos Destacados</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="https://placehold.co/64x64/00b4d8/fff?text=JS" alt="Proyecto 1">
+        <h3>Portfolio Personal</h3>
+        <p>Mi portfolio online, creado con HTML, CSS y JavaScript, adaptado a móviles y escritorio.</p>
+        <a href="#" style="color:var(--primary);">Ver más</a>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/64x64/ffb703/fff?text=API" alt="Proyecto 2">
+        <h3>API RESTful</h3>
+        <p>Una API para gestionar tareas, desarrollada con Node.js y Express.</p>
+        <a href="#" style="color:var(--primary);">Ver más</a>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/64x64/22223b/fff?text=APP" alt="Proyecto 3">
+        <h3>App de Notas</h3>
+        <p>Aplicación para tomar notas y organizarlas, pensada para productividad personal.</p>
+        <a href="#" style="color:var(--primary);">Ver más</a>
+      </div>
+    </div>
+  </section>
 
-    <main class="container">
-        <section id="experience">
-            <h2>EXPERIENCIA PROFESIONAL</h2>
-            <div class="job">
-                <h3>SOPORTE TÉCNICO Y ANALISTA DE DATOS</h3>
-                <p class="company">Corporate Mobile Recycling ES, octubre 2021 - presente</p>
-                <ul>
-                    <li>Desarrollo e implementación de soluciones técnicas para optimizar procesos operativos y logísticos.</li>
-                    <li>Automatización de tareas repetitivas con CMD, PowerShell y scripts en Python.</li>
-                    <li>Configuración y optimización de sistemas NAS y cortafuegos pfSense.</li>
-                    <li>Mantenimiento de sistemas: optimización de SO, actualizaciones de software y configuración de aplicaciones.</li>
-                    <li>Diagnóstico avanzado y resolución de problemas de hardware y software.</li>
-                    <li>Pruebas y validación de sistemas de pago basados en XML.</li>
-                    <li>Extracción y transformación de datos desde bases SQL, Excel y APIs usando Python (pandas), R y Power Query.</li>
-                    <li>Análisis exploratorio de datos (EDA) para identificar tendencias y patrones.</li>
-                    <li>Creación de paneles interactivos y reportes con Power BI, Tableau, matplotlib y seaborn.</li>
-                    <li>Documentación de hallazgos, recomendaciones y procedimientos técnicos.</li>
-                    <li>Colaboración con equipos multidisciplinarios usando Git y metodologías ágiles.</li>
-                </ul>
-            </div>
-        </section>
+  <section id="habilidades">
+    <h2>🛠️ Habilidades</h2>
+    <div class="skills">
+      <div class="card">
+        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+        <h4>HTML5</h4>
+      </div>
+      <div class="card">
+        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+        <h4>CSS3</h4>
+      </div>
+      <div class="card">
+        <div class="skill-icon"><i class="fab fa-js"></i></div>
+        <h4>JavaScript</h4>
+      </div>
+      <div class="card">
+        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+        <h4>Node.js</h4>
+      </div>
+      <div class="card">
+        <div class="skill-icon"><i class="fab fa-github"></i></div>
+        <h4>GitHub</h4>
+      </div>
+    </div>
+  </section>
 
-        <section id="skills">
-            <h2>HABILIDADES</h2>
-            <div class="skills-category">
-                <h3>TÉCNICAS</h3>
-                <ul>
-                    <li>Lenguajes: Python, JavaScript, Java, C#, PHP, .NET.</li>
-                    <li>Desarrollo Web: HTML, CSS, React, Angular, Laravel, Hibernate, Node.js.</li>
-                    <li>Databases y Herramientas de Datos: SQL, SQL Server, MySQL, MongoDB, Power Query, API integration.</li>
-                    <li>Análisis de Datos y Visualización: Power BI, Tableau, matplotlib, seaborn, Excel (advanced), Exploratory Data Analysis (EDA).</li>
-                    <li>Machine Learning: Scikit-learn, XGBoost, Logistic Regression, Random Forest, SMOTE, GridSearchCV.</li>
-                    <li>DevOps & Control de Versiones: Git, GitHub, Agile methodologies, VirtualBox.</li>
-                    <li>Soporte de IT y sistemas: Windows OS, Linux, pfSense (firewall), SCCM, SAP, system optimization, scripting (CMD, PowerShell).</li>
-                    <li>Redes y Hardware: Configuración de internet y NAS, solución de problemas hardware, diagnóstico del sistema.</li>
-                </ul>
-            </div>
-            <div class="skills-category">
-                <h3>SOCIALES</h3>
-                <ul>
-                    <li>Resolución de problemas.</li>
-                    <li>Pensamiento analítico.</li>
-                    <li>Adaptabilidad.</li>
-                    <li>Trabajo en equipo.</li>
-                    <li>Gestión del tiempo.</li>
-                    <li>Aprendizaje continuo.</li>
-                    <li>Orientación al detalle.</li>
-                    <li>Autonomía y responsabilidad.</li>
-                    <li>Comunicación.</li>
-                    <li>Liderazgo de equipos.</li>
-                    <li>Satisfacción del cliente.</li>
-                    <li>Ventas B2B.</li>
-                </ul>
-            </div>
-        </section>
+  <section id="contacto">
+    <h2>✉️ Contacto</h2>
+    <p>¡Hablemos! Puedes encontrarme en:</p>
+    <div class="contact-icons">
+      <a href="https://github.com/Skorpion02" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="mailto:tuemail@ejemplo.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
 
-        <section id="education">
-            <h2>EDUCACIÓN</h2>
-            <div class="education-item">
-                <h3>Máster en Inteligencia Artificial y Ciencia de Datos</h3>
-                <p>IMMUNE TECHNOLOGY INSTITUTE (2024 - PRESENTE)</p>
-            </div>
-            <div class="education-item">
-                <h3>Desarrollo de aplicaciones web.</h3>
-                <p>ILERNA (2020-2023)</p>
-            </div>
-            <div class="education-item">
-                <h3>Bachillerato</h3>
-                <p>BORCELLE HIGH SCHOOL (2012-2017)</p>
-            </div>
-        </section>
-
-        <section id="languages">
-            <h2>IDIOMAS</h2>
-            <ul>
-                <li>ESPAÑOL (Nativo)</li>
-                <li>PORTUGUÉS (Nativo)</li>
-                <li>INGLÉS (B2)</li>
-                <li>ALEMÁN (A1)</li>
-            </ul>
-        </section>
-
-        <section id="portfolio">
-            <h2>PORTAFOLIO</h2>
-            <div class="portfolio-item">
-                <h3>ANÁLISIS CAMPAÑA DE MARKETING BANCARIO</h3>
-                <ul>
-                    <li>Análisis de un dataset para predecir la suscripción de clientes a depósitos a plazo.</li>
-                    <li>Análisis EDA univariado, bivariado y multivariado.</li>
-                    <li>Agrupación de variables categóricas, tratamiento de outliers y discretización de variables continuas.</li>
-                    <li>Manejo del desbalanceo de clases con SMOTE.</li>
-                    <li>Comparación de modelos: Regresión Logística, Naive Bayes, KNN, Árboles de Decisión, Random Forest, AdaBoost, XGBoost.</li>
-                    <li>Ajuste de hiperparámetros con GridSearchCV.</li>
-                    <li>Creación de pipeline robusto con Scikit-learn y Imbalanced-learn.</li>
-                    <li>Identificación de predictores clave y despliegue del modelo final para Kaggle.</li>
-                </ul>
-            </div>
-            <div class="portfolio-item">
-                <h3>ANÁLISIS DEL COMPORTAMIENTO DE USUARIOS EN REDES SOCIALES (EN PROGRESO)</h3>
-                <ul>
-                    <li>Limpieza y preprocesamiento de datos de usuarios.</li>
-                    <li>Ingeniería de características temporales a partir de fechas de registro.</li>
-                    <li>Conversión de variables categóricas a numéricas.</li>
-                    <li>EDA con visualizaciones personalizadas.</li>
-                    <li>Identificación de outliers en métricas de uso.</li>
-                    <li>Preparación para pruebas estadísticas y modelado de clasificación.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="presentations">
-            <h2>PRESENTACIONES Y PONENCIAS</h2>
-            <div class="presentation-item">
-                <h3>Open Day Másters - Immune Technology Institute (Mayo 2025)</h3>
-                <ul>
-                    <li>Compartí mi testimonio como alumno en la jornada de IMMUNE, resolviendo dudas a futuros estudiantes sobre los master de Data Science & IA y Cloud Computing.</li>
-                    <li>Contribuí a reforzar la confianza en la calidad formativa de la institución y aparecí en la publicación oficial del evento.</li>
-                </ul>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Roberto de Gouveia. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <footer>
+    &copy; 2025 Skorpion02. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
