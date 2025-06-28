@@ -1,26 +1,15 @@
-// script.js
-document.addEventListener('DOMContentLoaded', function() {
-    const navToggle = document.querySelector('.nav-toggle'); // Necesitarías un botón para esto en tu HTML
-    const navMenu = document.querySelector('nav ul');
+// Navegación responsive: toggle menú
+const navToggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.nav');
+navToggle.addEventListener('click', () => {
+  nav.classList.toggle('open');
+  navToggle.classList.toggle('active');
+});
 
-    // Si tienes un botón para el menú responsive (ej: un icono de hamburguesa)
-    // navToggle.addEventListener('click', function() {
-    //     navMenu.classList.toggle('active');
-    // });
-
-    // Para el scroll suave (opcional)
-    document.querySelectorAll('nav ul li a').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-
-            // Opcional: cerrar el menú en móvil después de hacer clic
-            // if (navMenu.classList.contains('active')) {
-            //     navMenu.classList.remove('active');
-            // }
-        });
-    });
+// Cerrar menú al hacer click fuera (móvil)
+document.addEventListener('click', (e) => {
+  if (!nav.contains(e.target) && !navToggle.contains(e.target)) {
+    nav.classList.remove('open');
+    navToggle.classList.remove('active');
+  }
 });
