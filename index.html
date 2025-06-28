@@ -1,49 +1,216 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Mi Sitio Modernizado</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Fuente similar a la referencia (Open Sans + Montserrat) -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto de Gouveia - Developer & Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Header Sticky -->
-  <header class="site-header">
-    <div class="container header-content">
-      <a href="#" class="logo">
-        <!-- Opcional: Pon tu logo aquí -->
-        <!-- <img src="logo.svg" alt="Logo" /> -->
-        <span>Skorpion02</span>
-      </a>
-      <nav class="nav">
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
-      <button class="nav-toggle" aria-label="Abrir menú">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="inicio">
-    <div class="container hero-content">
-      <h1 class="hero-title">¡Hola! Soy Skorpion02</h1>
-      <p class="hero-subtitle">Desarrollador web y entusiasta de la tecnología. Bienvenido a mi espacio personal donde comparto mis proyectos y conocimientos.</p>
-      <a href="#proyectos" class="cta-btn">Descubre Más</a>
-    </div>
-  </section>
+    <header id="home">
+        <nav>
+            <div class="logo">Roberto de Gouveia</div>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1>Roberto de Gouveia</h1>
+            <h2>Developer y Data Analyst</h2>
+            <p>Un profesional de IT multidisciplinar con experiencia en soporte técnico, configuración de sistemas y automatización. Especializado en análisis de datos, machine learning y desarrollo de dashboards interactivos.</p>
+            <a href="#contact" class="btn-primary">Contáctame</a>
+            <div class="social-links">
+                <a href="https://github.com/Skorpion02" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/roberto-andrés-de-gouveia-de-andrade-830206208/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://portfoliocv02.netlify.app" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+    </header>
 
-  <script src="script.js"></script>
-</body>
+    <main>
+        <section id="about" class="section-padded">
+            <h2>Sobre Mí</h2>
+            <p>Soy un profesional de IT con más de 3 años de experiencia en soporte técnico, configuración de sistemas y automatización. Mi especialización incluye análisis de datos, machine learning y desarrollo de dashboards interactivos utilizando Python, SQL, Power BI y Tableau. Tengo una habilidad demostrada para optimizar operaciones y ofrecer conocimientos prácticos. Me apasiona el aprendizaje continuo y la resolución de problemas complejos a través de la tecnología.</p>
+            <h3>Habilidades Blandas</h3>
+            <ul>
+                <li>Resolución de problemas</li>
+                <li>Pensamiento analítico</li>
+                <li>Adaptabilidad</li>
+                <li>Trabajo en equipo</li>
+                <li>Gestión del tiempo</li>
+                <li>Aprendizaje continuo</li>
+                <li>Orientado al detalle</li>
+                <li>Autonomía y responsabilidad</li>
+                <li>Comunicación</li>
+                <li>Liderazgo de equipo</li>
+                <li>Satisfacción del cliente</li>
+                <li>Ventas B2B</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section-padded bg-light">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Lenguajes</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>PHP</li>
+                        <li>.NET</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Desarrollo Web</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>Laravel</li>
+                        <li>Hibernate</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Bases de Datos & Herramientas de Datos</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>SQL Server</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Power Query</li>
+                        <li>Integración de API</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Análisis y Visualización de Datos</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Tableau</li>
+                        <li>matplotlib</li>
+                        <li>seaborn</li>
+                        <li>Excel (avanzado)</li>
+                        <li>Análisis de Datos Exploratorio (EDA)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <ul>
+                        <li>Scikit-learn</li>
+                        <li>XGBoost</li>
+                        <li>Regresión Logística</li>
+                        <li>Random Forest</li>
+                        <li>SMOTE</li>
+                        <li>GridSearchCV</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Control de Versiones</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Metodologías Ágiles</li>
+                        <li>VirtualBox</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soporte IT & Sistemas</h3>
+                    <ul>
+                        <li>Windows OS</li>
+                        <li>Linux</li>
+                        <li>pfSense (firewall)</li>
+                        <li>SCCM</li>
+                        <li>SAP</li>
+                        <li>Optimización de sistemas</li>
+                        <li>Scripting (CMD, PowerShell)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Redes & Hardware</h3>
+                    <ul>
+                        <li>Configuración de Internet y NAS</li>
+                        <li>Resolución de problemas de hardware</li>
+                        <li>Diagnóstico de sistemas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padded">
+            <h2>Proyectos de Portfolio</h2>
+            <div class="project-item">
+                <h3>Banking Marketing Campaign Analysis</h3>
+                <p>Análisis de un conjunto de datos para predecir la suscripción de clientes a depósitos a plazo. Se realizaron EDA univariados, bivariados y multivariados. Gestión del desequilibrio de clases con SMOTE. Comparación de modelos como Regresión Logística, Naive Bayes, KNN, Árboles de Decisión, Random Forest, AdaBoost, XGBoost. Ajuste de hiperparámetros con GridSearchCV. Creación de un pipeline robusto con Scikit-learn e Imbalanced-learn. Identificación de predictores clave y despliegue del modelo final en Kaggle.</p>
+                <a href="#" target="_blank">Ver Proyecto (GitHub/Demo)</a>
+            </div>
+            <div class="project-item">
+                <h3>Social Media User Behavior Analysis (En Progreso)</h3>
+                <p>Limpieza y preprocesamiento de datos de usuario. Ingeniería de características temporales a partir de fechas de registro. Conversión de variables categóricas a numéricas. Realización de EDA con visualizaciones personalizadas. Identificación de valores atípicos en métricas de uso. Preparación para pruebas estadísticas y modelado de clasificación.</p>
+                <a href="#" target="_blank">Ver Proyecto (GitHub)</a>
+            </div>
+        </section>
+
+        <section id="experience" class="section-padded bg-light">
+            <h2>Experiencia Profesional</h2>
+            <div class="job-item">
+                <h3>Soporte Técnico y Analista de Datos</h3>
+                <h4>Corporate Mobile Recycling ES | Octubre 2021 - Presente</h4>
+                <ul>
+                    <li>Desarrollo e implementación de soluciones técnicas para optimizar procesos operativos y logísticos.</li>
+                    <li>Automatización de tareas repetitivas utilizando scripts de CMD, PowerShell y Python.</li>
+                    <li>Configuración y optimización de sistemas NAS y firewalls pfSense.</li>
+                    <li>Mantenimiento de sistemas: optimización de SO, actualizaciones de software y configuración de aplicaciones.</li>
+                    <li>Diagnósticos avanzados y resolución de problemas de hardware y software.</li>
+                    <li>Prueba y validación de sistemas de pago basados en XML.</li>
+                    <li>Extracción y transformación de datos de bases de datos SQL, Excel y APIs utilizando Python (pandas), R y Power Query.</li>
+                    <li>Análisis de datos exploratorio (EDA) para identificar tendencias y patrones.</li>
+                    <li>Creación de dashboards e informes interactivos con Power BI, Tableau, matplotlib y seaborn.</li>
+                    <li>Documentación de hallazgos, recomendaciones y procedimientos técnicos.</li>
+                    <li>Colaboración con equipos multidisciplinares utilizando Git y metodologías ágiles.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section-padded">
+            <h2>Educación</h2>
+            <div class="education-item">
+                <h3>Máster en Inteligencia Artificial y Ciencia de Datos</h3>
+                <p>IMMUNE TECHNOLOGY INSTITUTE (2024 - Presente)</p>
+            </div>
+            <div class="education-item">
+                <h3>Desarrollo de Aplicaciones Web</h3>
+                <p>ILERNA (2020-2023)</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachillerato</h3>
+                <p>BORCELLE HIGH SCHOOL (2012-2017)</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padded bg-light">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de:</p>
+            <p>Email: <a href="mailto:degouveia1115@gmail.com">degouveia1115@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/roberto-andrés-de-gouveia-de-andrade-830206208/" target="_blank">linkedin.com/in/roberto-andrés-de-gouveia-de-andrade-830206208/</a></p>
+            <p>GitHub: <a href="https://github.com/Skorpion02" target="_blank">github.com/Skorpion02</a></p>
+            <p>Portfolio: <a href="https://portfoliocv02.netlify.app" target="_blank">https://portfoliocv02.netlify.app</a></p>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Roberto de Gouveia. Todos los derechos reservados.</p>
+    </footer>
+
+    </body>
 </html>
