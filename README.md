@@ -60,7 +60,7 @@ Soy **Roberto De Gouveia**, un desarrollador Full Stack y científico de datos a
 
 ## 📱 Demo en Vivo
 
-🌐 **[Ver Portfolio](https://tu-usuario.github.io/roberto-portfolio/)**
+🌐 **[Ver Portfolio](https://skorpion02.github.io/roberto-portfolio/)**
 
 ## 📞 Contacto
 
@@ -82,7 +82,7 @@ Soy **Roberto De Gouveia**, un desarrollador Full Stack y científico de datos a
 
 - **Bachelor in Science** - High School
 - **Web Development** - Udemy
-- **Data Science Specialization** - Varios cursos especializados
+- **Master Data Science & AI**
 
 ## 🔧 Habilidades Técnicas
 
