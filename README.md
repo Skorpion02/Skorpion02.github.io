@@ -60,7 +60,7 @@ Soy **Roberto De Gouveia**, un desarrollador Full Stack y científico de datos a
 
 ## 📱 Demo en Vivo
 
-🌐 **[Ver Portfolio](https://skorpion02.github.io/roberto-portfolio/)**
+🌐 **[Ver Portfolio](https://skorpion02.github.io/)**
 
 ## 📞 Contacto
 
