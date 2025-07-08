@@ -14,6 +14,24 @@
 
 ---
 
+## 🎨 Banner 3D Interactivo
+
+<p align="center">
+  <a href="https://skorpion02.github.io/Banner_3D/" target="_blank">
+    <img src="assets/imgs/RobertoDeGouveia.png" width="400" alt="Banner 3D Interactivo - Roberto De Gouveia"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skorpion02.github.io/Banner_3D/"><img src="https://img.shields.io/badge/🎯%20Ver%20Banner%203D%20Interactivo-E8BF96?style=for-the-badge&logo=cube&logoColor=white" alt="Banner 3D" /></a>
+</p>
+
+<p align="center">
+  <em>✨ ¡Haz clic en la imagen o el botón para experimentar el banner 3D interactivo con efectos de movimiento! ✨</em>
+</p>
+
+---
+
 ## 👋 Sobre Mí
 
 ¡Hola! Soy **Roberto De Gouveia**, desarrollador Full Stack y científico de datos. Me apasiona crear soluciones innovadoras que fusionen tecnología web moderna con análisis avanzado de datos y machine learning. Siempre en busca de nuevos retos y oportunidades para aprender y crecer 🚀
