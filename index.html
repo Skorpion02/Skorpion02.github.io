@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="INFO HTML5 Template" />
+
+    <title>Home - Developer</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/x-icon" href="././assets/imgs/logo/favicon.png" />
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/progressbar.css" />
+    <link rel="stylesheet" href="./assets/css/meanmenu.min.css" />
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="./assets/css/basictable.min.css" />
+    <link rel="stylesheet" href="./assets/css/master-developer.css" />
+    <link rel="stylesheet" href="./assets/remixicon/remixicon.css" />
+  </head>
+
+  <body class="font-heading-estedad">
+    <!-- Body Ovelay -->
+    <div class="body-overlay"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="container" class="container-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span data-text="R" class="characters">R</span>
+            <span data-text="A" class="characters">A</span>
+            <span data-text="G" class="characters">G</span>
+            <span data-text="A" class="characters">A</span>
+          </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+
+    <!-- Sroll to top -->
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+
+    <!-- Switcher Area Start -->
+    <div class="switcher__area">
+      <div class="switcher__icon">
+        <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+        <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="switcher__items">
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">mode</p>
+          </div>
+          <div class="switcher__btn mode-type wc-col-2">
+            <button class="active" data-mode="dark">dark</button>
+            <button data-mode="light">light</button>
+          </div>
+        </div>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">Language Support</p>
+          </div>
+          <div class="switcher__btn lang_dir wc-col-2">
+            <button class="active" data-mode="ltr">LTR</button>
+            <button data-mode="rtl">RTL</button>
+          </div>
+        </div>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">Layout</p>
+          </div>
+          <div class="switcher__btn layout-type wc-col-2">
+            <button class="active" data-mode="full-width">Full Width</button>
+            <button data-mode="box-layout">Box Layout</button>
+          </div>
+        </div>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">Cursor</p>
+          </div>
+          <div class="switcher__btn">
+            <select name="cursor-style" id="cursor_style">
+              <option value="1">default</option>
+              <option selected value="2">animated</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="offcanvas__menu">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li>
+          <a id="btnEnlaceAbout" href="#enlaceAbout">about</a
+          ><!--href="#enlaceAbout"-->
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="has-smooth" id="has_smooth"></div>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div class="body-wrapper">
+          <!-- overlay switcher close  -->
+          <div class="overlay-switcher-close"></div>
+
+          <!-- Header area start -->
+          <header class="header__developer header-absolute">
+            <div class="header__inner menu-none">
+              <div class="header__logo">
+                <a href="index.html">
+                  <img
+                    src="./assets/imgs/logo/R2-light.png"
+                    class="show-dark"
+                    alt="Site Logo"
+                  />
+                  <img
+                    src="./assets/imgs/logo/R2-dark.png"
+                    class="show-light"
+                    alt="Site Logo"
+                  />
+                </a>
+              </div>
+              <div class="header__nav-icon">
+              </div>
+            </div>
+          </header>
+          <!-- Header area end -->
+          <main>
+            <!-- Hero section start -->
+            <section class="developer-hero__area">
+              <div class="container g-0 line">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
+                    <div class="developer-hero__left">
+                      <div
+                        class="pb-20 cf_typewriter has_fade_anim"
+                        data-on-scroll="0"
+                      >
+                        <h1 class="typed_title color-primary">
+                          <span id="typed_list">
+                            <span>Web Developer</span>
+                            <span>Web Designer</span>
+                            <span>Data Analyst</span>
+                            <span>Data Scientist</span>
+                          </span>
+                          <span id="typed"></span>
+                        </h1>
+                      </div>
+
+                      <div class="pb-0">
+                        <h2
+                          class="developer-hero__title has_text_reveal_anim"
+                          data-on-scroll="0"
+                          data-delay="0.65"
+                        >
+                          Roberto De Gouveia
+                        </h2>
+                      </div>
+
+                      <div
+                        class="cf_text has_text_move_anim"
+                        data-on-scroll="0"
+                        data-delay="0.8"
+                      >
+                        <p>Full Stack | Data Scientist </p>
+                      </div>
+
+                      <div
+                        class="follow_on_social_ml has_fade_anim"
+                        data-on-scroll="0"
+                        data-delay=".8"
+                      >
+                        <div class="follow_on_social">
+                          <h3 class="follow-me">Follow Me</h3>
+                          <ul class="hover-zoom">
+                            <li>
+                              <a
+                                href="https://www.linkedin.com/in/roberto-andr%C3%A9s-de-gouveia-de-andrade-830206208/"
+                                aria-label="social-icon"
+                                ><i class="fa-brands fa-linkedin"></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://github.com/Skorpion02"
+                                aria-label="social-icon"
+                                ><i class="fa-brands fa-github"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
+                    <div class="developer-hero__right">
+                      <div class="cf_image">
+                        <img src="./assets/imgs/hero/1.png" alt="Hero image" />
+                      </div>
+                      <div class="developer-hero__info-wrapper">
+                        <div
+                          class="developer-hero__hello cf_badge has_fade_anim"
+                        >
+                          <div class="say_hello">
+                            <p>Say hello!</p>
+                            <p>Do you want a coffee?☕</p>
+                            <a href="mailto:degouveia1115@gmail.com"
+                              >degouveia1115@gmail.com</a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="developer-hero__experience">
+                          <div class="work_process_experience">
+                            <div class="work_process">
+                              <a href="#" onclick="alert('CV disponible bajo petición')" style="text-decoration: none;">
+                                <i class="ri-file-download-line"></i>
+                              </a>
+                              <span
+                                >Download <br />
+                                CV</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="./assets/imgs/shape/1.png"
+                alt="Shape Image"
+                class="hero-shape show-dark"
+              />
+              <img
+                src="./assets/imgs/shape/6.png"
+                alt="Shape Image"
+                class="hero-shape show-light"
+              />
+            </section>
+            <!-- Hero section end -->
+
+            <!-- Skill section start -->
+            <section class="developer-skill__area">
+              <div class="container g-0 line pb-120 pt-130">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-12">
+                    <div class="sec-title-wrapper">
+                      <div class="pb-20">
+                        <h2 class="sec-sub-title has_text_reveal_anim">
+                          SKills
+                        </h2>
+                      </div>
+                      <h3 class="sec-title has_text_reveal_anim">
+                        Developer Skills
+                      </h3>
+                    </div>
+                    <div class="col-xxl-12">
+                      <div class="developer-skill__grid-3">
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="0.5"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/1.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">JAVA</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="0.6"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/2.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">SQL</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="0.7"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/3.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">PHP</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="0.8"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/4.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">.NET</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="0.9"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/5.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">JavaScript</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/6.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">HTML & CSS</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/11.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">Python</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/15.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">Hibernate</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container g-0 line pb-120 pt-130">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-12">
+                    <div class="sec-title-wrapper">
+                      <div class="pb-20">
+                        <h2 class="sec-sub-title has_text_reveal_anim">
+                          SKills
+                        </h2>
+                      </div>
+                      <h3 class="sec-title has_text_reveal_anim">
+                        Data Scientist Skills
+                      </h3>
+                    </div>
+                    <div class="col-xxl-12">
+                      <div class="developer-skill__grid-3">
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/11.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">Python</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/12.png"
+                            alt="Skill Icon"
+                          />
+                          <br><br>
+                          <h5 class="title">Scikit learn</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/13.png"
+                            alt="Skill Icon"
+                          />
+                          <h5 class="title">Power BI</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/14.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">Matplotlib</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/16.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">Seaborn</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/17.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">EDA</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/18.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">XGBOOST</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/19.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">LightGBM</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/20.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">Pandas</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/21.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">Numpy</h5>
+                        </div>
+                        <div
+                          class="skill__item has_fade_anim"
+                          data-fade-from="left"
+                          data-delay="1"
+                        >
+                          <img
+                            src="./assets/imgs/skills/icon/22.png"
+                            alt="Skill Icon"
+                          />
+                          <br>
+                          <h5 class="title">Logistic Regression</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Skill section end -->
+
+            <!-- Resume section start -->
+            <section class="developer-resume__area" id="enlaceAbout">
+
+              <div class="developer-resume__content">
+                <div class="container g-0 line">
+                  <div class="line-col-3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xxl-12">
+                      <div class="sec-title-wrapper">
+                        <div class="pb-20">
+                          <h2 class="sec-sub-title has_char_anim">Resume</h2>
+                        </div>
+                        <h3 class="sec-title has_text_reveal_anim">
+                          My Resume
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="col-xxl-12">
+                      <div class="developer-resume__tab-wrapper">
+                        <div class="developer-resume__tab-menu">
+                          <ul>
+                            <li
+                              class="has_fade_anim"
+                              data-fade-from="left"
+                              data-delay="0.5"
+                            >
+                              <a href="#" data-rel="resume-tab-1" class="active"
+                                >about me</a
+                              >
+                            </li>
+                            <li
+                              class="has_fade_anim"
+                              data-fade-from="left"
+                              data-delay="0.5"
+                            >
+                              <a href="#" data-rel="resume-tab-2" class=""
+                                >experience</a
+                              >
+                            </li>
+                            <li
+                              class="has_fade_anim"
+                              data-fade-from="left"
+                              data-delay="0.5"
+                            >
+                              <a href="#" data-rel="resume-tab-3" class=""
+                                >education</a
+                              >
+                            </li>
+                            <li
+                              class="has_fade_anim"
+                              data-fade-from="left"
+                              data-delay="0.5"
+                            >
+                              <a href="#" data-rel="resume-tab-4" class=""
+                                >skills</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="developer-resume__tab-list">
+                          <div
+                            class="developer-resume-tab-box"
+                            id="resume-tab-1"
+                            style="display: block"
+                          >
+                            <div class="developer-about__area">
+                              <div class="developer-about__content">
+                                <h2
+                                  class="developer-about__title has_text_reveal_anim"
+                                >
+                                  Web Developer
+                                </h2>
+                                <div class="cf_text has_text_move_anim">
+                                  <p>
+                                    Hi, my name is
+                                    <strong class="color-white"
+                                      >Roberto De Gouveia</strong
+                                    >
+                                    I'm a multidisciplinary IT professional with over 3 years of experience in 
+                                    technical support, system configuration, and automation. I specialize in data 
+                                    analysis, machine learning, and interactive dashboard development using Python, SQL, Power BI, and Tableau.
+                                    I have a proven ability to optimize operations and deliver actionable insights. 
+                                    I'm passionate about continuous learning and solving complex problems with technology.
+                                  </p>
+                                </div>
+                                <ul class="about__bio has_text_move_anim">
+                                  <li>
+                                    Name <span>:</span>
+                                    <strong>Roberto De Gouveia</strong>
+                                  </li>
+                                  <li>
+                                    Nationality <span>:</span>
+                                    <strong>Portugal</strong>
+                                  </li>
+                                  <li>
+                                    Phone <span>:</span>
+                                    <strong>+(34) 603 03 82 57</strong>
+                                  </li>
+                                  <li>
+                                    Email <span>:</span>
+                                    <strong>degouveia1115@gmail.com</strong>
+                                  </li>
+                                  <li>
+                                    Language <span>:</span>
+                                    <strong
+                                      >English, Spanish & Portuguese</strong
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                              <div
+                                class="developer-about__img cf_image has_fade_anim"
+                              >
+                                <img
+                                  src="./assets/imgs/about/roberto.png"
+                                  alt="About Me"
+                                  class="about-me"
+                                />
+                                <img
+                                  src="./assets/imgs/shape/3.png"
+                                  alt="Shape Image"
+                                  class="about-shape-1"
+                                />
+                                <img
+                                  src="./assets/imgs/shape/4.png"
+                                  alt="Shape Image"
+                                  class="about-shape-2"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="developer-resume-tab-box"
+                            id="resume-tab-2"
+                          >
+                            <div class="developer-experience__area">
+                              <div class="experience__grid">
+                                <div class="experience__item">
+                                  <h2 class="exp-time">
+                                    <span
+                                      ><i
+                                        class="fa-regular fa-calendar-days"
+                                      ></i
+                                    ></span>
+                                    2021 - Present
+                                  </h2>
+                                  <h3 class="exp-title">IT Subchief</h3>
+                                  <h4 class="company">CMR ES</h4>
+                                  <p>
+                                    Optimizing processes through the implementation of technical solutions 
+                                    and automating tasks using CMD, PowerShell, and Python scripts. The individual 
+                                    excels in systems management, including NAS and pfSense configuration, software 
+                                    and hardware maintenance, and advanced troubleshooting. In the data realm, they possess 
+                                    skills in data extraction, transformation (SQL, Excel, APIs with Python/pandas, R, Power Query), 
+                                    and exploratory analysis (EDA). Furthermore, they are proficient in data visualization using Power BI, 
+                                    Tableau, matplotlib, and seaborn for creating dashboards and reports.
+                                  </p>
+                                </div>
+                                <div class="experience__item">
+                                  <h2 class="exp-time">
+                                    <span
+                                      ><i
+                                        class="fa-regular fa-calendar-days"
+                                      ></i
+                                    ></span>
+                                    2020 - 2021
+                                  </h2>
+                                  <h3 class="exp-title">Aux Web Development</h3>
+                                  <h4 class="company">Freelancer</h4>
+                                  <p>
+                                    Owing to advancements in product other
+                                    designer technologies, chatbots have
+                                    increased into greater popularity in the
+                                    past few years.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="developer-resume-tab-box"
+                            id="resume-tab-3"
+                          >
+                            <div class="developer-experience__area">
+                              <div class="experience__grid">
+                                <div class="experience__item">
+                                  <h2 class="exp-time">
+                                    <span
+                                      ><i
+                                        class="fa-regular fa-calendar-days"
+                                      ></i
+                                    ></span>
+                                    2012-2017
+                                  </h2>
+                                  <h3 class="exp-title">
+                                    Borcelle High School
+                                  </h3>
+                                  <h4 class="company">High School</h4>
+                                  <p>Bachelor in Science.</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h2 class="exp-time">
+                                    <span
+                                      ><i
+                                        class="fa-regular fa-calendar-days"
+                                      ></i
+                                    ></span>
+                                    2020 - 2023
+                                  </h2>
+                                  <h3 class="exp-title">
+                                    ATEM Formación | ILERNA
+                                  </h3>
+                                  <h4 class="company">
+                                    Web applications development
+                                  </h4>
+                                  <p>
+                                    I gained the most knowledge I have today
+                                    about programming.
+                                  </p>
+                                </div>
+                                <div class="experience__item">
+                                  <h2 class="exp-time">
+                                    <span
+                                      ><i
+                                        class="fa-regular fa-calendar-days"
+                                      ></i
+                                    ></span>
+                                    2020 - 2021
+                                  </h2>
+                                  <h3 class="exp-title">Udemy</h3>
+                                  <h4 class="company">Web Development</h4>
+                                  <p>
+                                    SQL, Heidi SQL, C# medium, JavaScript
+                                    medium, SCRUM, JAVA, SQL SERVER.
+                                  </p>
+                                </div>
+                                <div class="experience__item">
+                                  <h2 class="exp-time">
+                                    <span
+                                      ><i
+                                        class="fa-regular fa-calendar-days"
+                                      ></i
+                                    ></span>
+                                    2024 - present
+                                  </h2>
+                                  <h3 class="exp-title">
+                                    Immune Institute Technology
+                                  </h3>
+                                  <h4 class="company">
+                                    Data Science and IA
+                                  </h4>
+                                  <p>
+                                    I gained the most knowledge I have today
+                                    about Data and IA.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="developer-resume-tab-box"
+                            id="resume-tab-4"
+                          >
+                            <div class="developer-experience__area">
+                              <div class="experience__grid2">
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                  Programming
+                                  </h3>
+                                  <h4 class="company">Developer</h4>
+                                  <p>CMD 🖥️</p>
+                                  <p>PowerShell 🖥️</p>
+                                  <p>Python 🐍</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                  Networking Security
+                                  </h3>
+                                  <h4 class="company">Cibersecurity</h4>
+                                  <p>NAS systems 💾</p>
+                                  <p>pfSense firewalls 🔒</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">Operating Systems</h3>
+                                  <h4 class="company">OS</h4>
+                                  <p>Windows OS 🪟</p>
+                                  <p>Linux 🐧</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                    Data Analysis & Visualization
+                                  </h3>
+                                  <h4 class="company">
+                                    Data Analyst
+                                  </h4>
+                                  <p>Power BI 💡</p>
+                                  <p>Tableau 🎨</p>
+                                  <p>matplotlib 📉</p>
+                                  <p>seaborn 🌊</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                    Data Extraction & Transformation
+                                  </h3>
+                                  <h4 class="company">
+                                    Data Analyst
+                                  </h4>
+                                  <p>Python (pandas) 📊</p>
+                                  <p>R 📈</p>
+                                  <p>Power Query (from SQL databases, Excel, and APIs)</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                    Control Version & Collaboration
+                                  </h3>
+                                  <h4 class="company">
+                                    Control Version
+                                  </h4>
+                                  <p>Git 🌳</p>
+                                  <p>Agile methodologies 🏃‍♂️</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                    Payment Systems
+                                  </h3>
+                                  <h4 class="company">
+                                    XML - API
+                                  </h4>
+                                  <p>XML-based payment systems 💳</p>
+                                </div>
+                                <div class="experience__item">
+                                  <h3 class="exp-title">
+                                    System Maintenance
+                                  </h3>
+                                  <h4 class="company">
+                                    Software & Hardware
+                                  </h4>
+                                  <p>General system optimization ⚙️</p>
+                                  <p>Software updates ⬆️</p>
+                                  <p>Application configuration 🔧</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="developer-resume-tab-box"
+                            id="resume-tab-5"
+                          >
+                            <div class="developer-award__area">
+                              <div class="developer-award__grid">
+                                <div class="award__item">
+                                  <h2 class="award__date">
+                                    07 <span>2023</span>
+                                  </h2>
+                                  <img
+                                    src="./assets/imgs/award/sotck-light.png"
+                                    class="show-dark"
+                                    alt="Award Image"
+                                  />
+                                  <img
+                                    src="./assets/imgs/award/sotck-dark.png"
+                                    class="show-light"
+                                    alt="Award Image"
+                                  />
+                                  <h3 class="award__title">
+                                    Creation of stock management system web
+                                    application.
+                                  </h3>
+                                  <h4 class="award__status">Completed</h4>
+                                </div>
+                                <div class="award__item">
+                                  <h2 class="award__date">
+                                    12 <span>2023</span>
+                                  </h2>
+                                  <img
+                                    src="./assets/imgs/award/time-light.png"
+                                    class="show-dark"
+                                    alt="Award Image"
+                                  />
+                                  <img
+                                    src="./assets/imgs/award/time-dark.png"
+                                    class="show-light"
+                                    alt="Award Image"
+                                  />
+                                  <h3 class="award__title">
+                                    Worker Time Clocking
+                                  </h3>
+                                  <h4 class="award__status">Progress</h4>
+                                </div>
+                                <div class="award__item">
+                                  <h2 class="award__date">
+                                    02 <span>2024</span>
+                                  </h2>
+                                  <img
+                                    src="./assets/imgs/award/B2B-light.png"
+                                    class="show-dark"
+                                    alt="Award Image"
+                                  />
+                                  <img
+                                    src="./assets/imgs/award/B2B-dark.png"
+                                    class="show-light"
+                                    alt="Award Image"
+                                  />
+                                  <h3 class="award__title">B2B ecommerce</h3>
+                                  <h4 class="award__status">Progress</h4>
+                                </div>
+                                <div class="award__item">
+                                  <h2 class="award__date">
+                                    03 <span>2025</span>
+                                  </h2>
+                                  <img
+                                    src="./assets/imgs/award/sotck-light.png"
+                                    class="show-dark"
+                                    alt="Award Image"
+                                  />
+                                  <img
+                                    src="./assets/imgs/award/sotck-dark.png"
+                                    class="show-light"
+                                    alt="Award Image"
+                                  />
+                                  <h3 class="award__title">Bank Marketing Campaign Analysis</h3>
+                                  <h4 class="award__status">Completed</h4>
+                                </div>
+                                <div class="award__item">
+                                  <h2 class="award__date">
+                                    08 <span>2022</span>
+                                  </h2>
+                                  <img
+                                    src="./assets/imgs/award/Bank_campaign.png"
+                                    class="show-dark"
+                                    alt="Award Image"
+                                  />
+                                  <img
+                                    src="./assets/imgs/award/Bank_campaign.png"
+                                    class="show-light"
+                                    alt="Award Image"
+                                  />
+                                  <h3 class="award__title">Basic Website modern</h3>
+                                  <h4 class="award__status">Completed</h4>
+                                </div>
+                                <div class="award__item">
+                                  <h2 class="award__date">
+                                    06 <span>2025</span>
+                                  </h2>
+                                  <img
+                                    src="./assets/imgs/award/social_media.png"
+                                    class="show-dark"
+                                    alt="Award Image"
+                                  />
+                                  <img
+                                    src="./assets/imgs/award/social_media.png"
+                                    class="show-light"
+                                    alt="Award Image"
+                                  />
+                                  <h3 class="award__title">Analysis of user behaviour on social media</h3>
+                                  <h4 class="award__status">Progress</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- About section end -->
+
+            <!-- Portfolio section end -->
+            <section class="developer-portfolio__area">
+              <div class="container g-0 line pt-120 pb-60">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                    <div class="sec-title-wrapper">
+                      <div class="pb-15">
+                        <h2 class="sec-sub-title has_char_anim">Portfolio</h2>
+                      </div>
+                      <h3 class="sec-title has_text_reveal_anim">
+                        My recent <br />
+                        work
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    <div class="sec-text-width cf_text has_text_move_anim">
+                      <p>
+                        My recent works that inform and provoke with creative
+                        <span>web & app developer</span> who dream the world
+                        better place by creating captivating products.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                    <div class="sec-btn cf_btn_link has_fade_anim">
+                      <a href="portfolio.html" class="wc-btn-underline"
+                        >View more works
+                        <span> <i class="fa-solid fa-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>-->
+                </div>
+              </div>
+              <div
+                class="swiper developer-portfolio__slider"
+                data-autoplay="true"
+                data-items="3"
+              >
+              <div class="swiper-wrapper">
+                <!-- Clock-in -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="#Clock-in">
+                      <img
+                        src="./assets/imgs/portfolio/Clockin.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">
+                        Employee Clock-In Systems
+                      </h2>
+                      <h3 class="developer-portfolio__date">
+                        In progress, Actually
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- Nova_clean -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="#Nova_clean">
+                      <img
+                        src="./assets/imgs/portfolio/Nova_clean.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">
+                        Nova clean
+                      </h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 07/2025
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- Stock Management -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="#StockManagement">
+                      <img
+                        src="./assets/imgs/portfolio/Stock_management.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">
+                        Stock Management System
+                      </h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 12/2022
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- Slot Machine -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/Machine_Slot" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/Slot_Machine.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">Slot machine</h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 07/2021
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- Racing Game -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/Racing_Game" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/Racing_game.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">Racing Game</h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 04/2021
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Bank_campaing -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/Bank_campaing" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/Bank_marketing.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">Bank campaing</h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 04/2025
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- IMEIs-Lookup -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/IMEIs-Lookup" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/IMEI-lookup.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">IMEIs Lookup</h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 03/2025
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- Proyecto: Titanic_Insights -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/Titanic_Insights" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/Titanic_insights.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">Titanic insights</h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 01/2025
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- Car_Eval -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/Car_evaluation" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/Car_eval.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">
+                        Car Evaluation
+                      </h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 11/2024
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <!-- UFO_Insights -->
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="https://github.com/Skorpion02/UFO_Unveiling_Temporal_Patterns" target="_blank">
+                      <img
+                        src="./assets/imgs/portfolio/UFO_insights.png"
+                        alt="Portfolio Image"
+                      />
+                      <h2 class="developer-portfolio__title">
+                        UFO Insights
+                      </h2>
+                      <h3 class="developer-portfolio__date">
+                        Completed, 02/2025
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+            </section>
+            <!-- Portfolio section start -->
+
+            <!-- Service section start -->
+            <section class="developer-service__area">
+              <div class="container g-0 line pt-120">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                    <div class="sec-title-wrapper">
+                      <div class="pb-15">
+                        <h2 class="sec-sub-title has_char_anim">Service</h2>
+                      </div>
+                      <h3 class="sec-title has_text_reveal_anim">
+                        My Expertise <br />
+                        Area
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                    <div class="sec-text-width cf_text has_text_move_anim">
+                      <p>
+                        Creative
+                        <strong class="color-white">Developer and Data Science</strong>
+                        who dream the world better place creating the most
+                        captivating products.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              <div class="developer-service__grid">
+                <div
+                  class="developer-service__item cf_expert_card has_fade_anim"
+                  data-fade-from="left"
+                  data-delay="0.5"
+                >
+                  <!-- Web Development -->
+                  <a href="#WebDevelopment">
+                    <div class="wcf__iconbox style-7">
+                      <h2 class="title">
+                        Web <br />
+                        Development
+                      </h2>
+                      <div class="icon">
+                        <img
+                          src="./assets/imgs/service/icon/1.png"
+                          alt="Icon"
+                        />
+                      </div>
+                      <p class="desc">
+                        I offer you electrical repairing services for new
+                        construction projects
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+                <div
+                  class="developer-service__item cf_expert_card has_fade_anim"
+                  data-fade-from="left"
+                  data-delay="0.6"
+                >
+                  <!-- Database Maintenance -->
+                  <a href="#DatabaseMaintenance">
+                    <div class="wcf__iconbox style-7">
+                      <h2 class="title">
+                        Database <br />
+                        Maintenance
+                      </h2>
+                      <div class="icon">
+                        <img
+                          src="./assets/imgs/service/icon/2.png"
+                          alt="Icon"
+                        />
+                      </div>
+                      <p class="desc">
+                        I offer you a reliable, secure, optimized database
+                        available at all times
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+                <div
+                  class="developer-service__item cf_expert_card has_fade_anim"
+                  data-fade-from="left"
+                  data-delay="0.7"
+                >
+                <!-- Git Repository -->
+                  <a href="#GitRepository">
+                    <!--service-details.html-->
+                    <div class="wcf__iconbox style-7">
+                      <h2 class="title">
+                        Git <br />
+                        Repository
+                      </h2>
+                      <div class="icon">
+                        <img
+                          src="./assets/imgs/service/icon/3.png"
+                          alt="Icon"
+                        />
+                      </div>
+                      <p class="desc">
+                        A complete, optimal repository for every daily
+                        situation in which it is necessary.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Data Analytics -->
+                <div
+                  class="developer-service__item cf_expert_card has_fade_anim"
+                  data-fade-from="left"
+                  data-delay="0.8"
+                >
+                  <a href="#VirtualBox">
+                    <div class="wcf__iconbox style-7">
+                      <h2 class="title">
+                        Data <br />
+                        Analytics
+                      </h2>
+                      <div class="icon">
+                        <img
+                          src="./assets/imgs/service/icon/4.png"
+                          alt="Icon"
+                        />
+                      </div>
+                      <p class="desc">
+                        Remarkable experience in data analytics, with 6 hard months of experience.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Machine Learning -->
+                <div
+                  class="developer-service__item cf_expert_card has_fade_anim"
+                  data-fade-from="left"
+                  data-delay="0.9"
+                >
+                  <a href="#VirtualBox">
+                    <div class="wcf__iconbox style-7">
+                      <h2 class="title">
+                        Machine <br />
+                        Learning
+                      </h2>
+                      <div class="icon">
+                        <img
+                          src="./assets/imgs/service/icon/4.png"
+                          alt="Icon"
+                        />
+                      </div>
+                      <p class="desc">
+                        3 months hands-on experience in predictive modeling. Eager to apply strong foundational 
+                        knowledge in Scikit-learn and Random Forest to real-world challenges.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Preprocessing Data -->
+                <div
+                  class="developer-service__item cf_expert_card has_fade_anim"
+                  data-fade-from="left"
+                  data-delay="1.0"
+                >
+                  <a href="#VirtualBox">
+                    <div class="wcf__iconbox style-7">
+                      <h2 class="title">
+                        Preprocessing <br />
+                        Data
+                      </h2>
+                      <div class="icon">
+                        <img
+                          src="./assets/imgs/service/icon/4.png"
+                          alt="Icon"
+                        />
+                      </div>
+                      <p class="desc">
+                        Experience in identifying and correcting inconsistencies, outliers and missing data, ensuring the reliability of datasets for analysis and ML.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+            </section>
+            <!-- Service section end -->
+
+            <!-- Contact section -->
+            <section class="contact__area pt-150 pb-130" id="contact">
+              <div class="container line ptf-70">
+                <div class="row g-5">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5">
+                    <div class="pdesigner-contact__left">
+                      <div class="sec-title-wrapper">
+                        <h1 class="sec-sub-title pb-20">Contact</h1>
+                        <h2 class="sec-title mb-20">Get in Touch</h2>
+                      </div>
+                      <div class="pdesigner-contact__grid">
+                        <div class="pdesigner-contact__type">
+                          <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                          </div>
+                          <div>
+                            <p class="pdesigner-contact__name">Phone</p>
+                            <p>
+                              <a href="tel:+(34)603038257">+34 603 03 82 57</a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="pdesigner-contact__type">
+                          <div class="icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                          </div>
+                          <div>
+                            <p class="pdesigner-contact__name">Email</p>
+                            <p>
+                              <a href="mailto:info@example.com"
+                                >degouveia1115@gmail.com</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                        <div class="pdesigner-contact__type">
+                          <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                          </div>
+                          <div>
+                            <p class="pdesigner-contact__name">Address</p>
+                            <p>Madrid, Spain</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xxl-7 col-xl-7 col-lg-7">
+                    <div class="pdesigner-contact__right">
+                      <div class="pdesigner-contact__form common">
+                        <form action="" id="contact-form">
+                          <div class="input-item">
+                            <p>Name</p>
+                            <input
+                              type="text"
+                              placeholder="Your name"
+                              name="name"
+                            />
+                          </div>
+                          <div class="input-item">
+                            <p>Email</p>
+                            <input
+                              type="email"
+                              placeholder="Your email"
+                              name="email"
+                            />
+                          </div>
+                          <div class="input-item">
+                            <p>Phone (Optional)</p>
+                            <input
+                              type="text"
+                              placeholder="Your phone"
+                              name="phone"
+                            />
+                          </div>
+                          <div class="input-item">
+                            <p>Subject</p>
+                            <input
+                              type="text"
+                              placeholder="Your subject"
+                              name="subject"
+                            />
+                          </div>
+                          <div class="input-item full">
+                            <p>Message</p>
+                            <textarea
+                              name="message"
+                              placeholder="Type your message..."
+                            ></textarea>
+                            <p id="contact-message"></p>
+                          </div>
+                          <div class="input-item submit">
+                            <button
+                              type="submit"
+                              class="wc-btn-primary btn-hover-divide"
+                            >
+                              submit <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Contact section end -->
+
+            <!-- Blog section end -->
+          </main>
+
+          <!-- Footer section start -->
+          <footer class="footer__area pb-0">
+            <div class="footer__top">
+              <div class="container line g-0">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-3 col-xl-3 col-lg-3">
+                    <div class="footer__logo">
+                      <a href="index.html"
+                        ><img
+                          src="./assets/imgs/logo/R2-light.png"
+                          class="show-dark"
+                          alt="Footer Logo"
+                      /></a>
+                      <a href="index.html"
+                        ><img
+                          src="./assets/imgs/logo/R2-dark.png"
+                          class="show-light"
+                          alt="Footer Logo"
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-9 col-xl-9 col-lg-9">
+                    <div class="footer__info">
+                      <div class="footer__contact">
+                        <h3 class="footer__title">Contact</h3>
+                        <a href="tel:+(34)603038257" class="footer__link"
+                          >+(34) 603 03 82 57</a
+                        >
+                      </div>
+                      <div class="footer__email">
+                        <h3 class="footer__title">Email</h3>
+                        <a href="mailto:hello@joyamen.com" class="footer__link"
+                          >degouveia1115@gmail.com</a
+                        >
+                      </div>
+                      <div class="footer__social">
+                        <h3 class="footer__title">Follow</h3>
+                        <ul class="hover-zoom">
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/roberto-andr%C3%A9s-de-gouveia-de-andrade-830206208/"
+                              aria-label="social-icon"
+                              ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/Skorpion02"
+                              aria-label="social-icon"
+                              ><i class="fa-brands fa-github"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__btm">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xxl-12">
+                    <div class="copyright">
+                      <p>
+                        © 2021 - 2024 | Alrights reserved by
+                        <a
+                          href="https://www.linkedin.com/in/roberto-andr%C3%A9s-de-gouveia-de-andrade-830206208/"
+                          >Roberto De Gouveia</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- Footer section end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- All JS files -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/progressbar.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!-- <script src="assets/js/beforeafter.jquery-1.0.0.min.js"></script> -->
+    <!-- <script src="assets/js/basictable.min.js"></script> -->
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/error-handling.js"></script>
+    <script src="assets/js/offcanvas.js"></script>
+    <script src="assets/js/wc-cursor.js"></script>
+  </body>
+</html>
