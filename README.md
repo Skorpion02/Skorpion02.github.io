@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/imgs/hero/1.png" width="70%" alt="Portfolio Preview"/>
+  <img src="assets/imgs/about/Banner_3D_final.png" width="70%" alt="Portfolio Preview"/>
 </p>
 
 ---
