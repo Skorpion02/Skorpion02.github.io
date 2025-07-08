@@ -1,0 +1,22 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales y de respaldo
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Node modules (si llegas a usar npm/yarn)
+node_modules/
+
+# Archivos SCSS de desarrollo (si usas SCSS)
+assets/scss/
