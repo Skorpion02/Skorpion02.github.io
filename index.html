@@ -1641,5 +1641,50 @@
     <script src="assets/js/error-handling.js"></script>
     <script src="assets/js/offcanvas.js"></script>
     <script src="assets/js/wc-cursor.js"></script>
+    <script src="assets/js/wc-cursor.js"></script>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Inicializa EmailJS con tu public key
+        (function(){
+          emailjs.init("_8LOWD5nSc_a5Vyc-"); 
+        })();
+        
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+          contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const messageElement = document.getElementById('contact-message');
+            if (messageElement) {
+              messageElement.innerHTML = "Sending...";
+              messageElement.style.color = "#007bff";
+            }
+
+            // Verifica que los campos requeridos tengan datos
+            const formData = new FormData(this);
+            console.log('Form data:', Object.fromEntries(formData));
+
+            emailjs.sendForm('service_55806qq', 'template_671g3hp', this)
+              .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                if (messageElement) {
+                  messageElement.innerHTML = "✅ Message sent successfully!";
+                  messageElement.style.color = "#28a745";
+                }
+                contactForm.reset();
+              }, function(error) {
+                console.error('FAILED...', error);
+                if (messageElement) {
+                  messageElement.innerHTML = `❌ Error: ${error.text || error.message || 'Unknown error'}`;
+                  messageElement.style.color = "#dc3545";
+                }
+              });
+          });
+        } else {
+          console.error('Contact form not found!');
+        }
+      });
+    </script>
   </body>
 </html>
